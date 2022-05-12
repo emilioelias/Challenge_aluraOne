@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styleEncriptador.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body class="Desktop1">
+
+    <header>
+
+        <img class="LogoAlura" src="img/Logo.png">
+        <img class="Mas" src="img/Mas1.png">
+        <img class="Dino" src="img/DinoDevTranparente2.png">
+
+    </header>
+
+    <main>
+        <img class="Muneco" src="img/DinoDevTransparente.png">
+        <img class="Rectangulo1" src="img/Rectangle 1.jpg">
+
+
+        <div>
+            <textarea type="text" id="ingresarTexto" class="IngresarTexto" placeholder="Ingresar texto..."></textarea>
+            <textarea type="text" rows="50" cols="50" id="textAreaMensaje" class="TextAreaMensaje" readonly="readonly"></textarea>"
+        </div>
+
+        <div>
+            <label class="Info">&#9432; Sólo letras en minúsculas y sin acentos.</label>
+        </div>
+        
+        <div>
+            <button type="button" class="BotonEncriptar" onclick="btnEncriptar()" value="Ocultar">Encriptar</button>
+            <button type="button" class="BotonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            <button type="button" class="BotonCopiar" onclick="btnCopiar()">Copiar</button>
+
+        </div>
+
+        <div>
+            <label class="NingunMensajeEncontrado">Ningún mensaje fue encontrado</label>
+            <label class="TextoDeseaDesencriptar">Ingresa el texto que desees encriptar o desencriptar.</label>
+        </div>
+    </main>
+
+    <footer>
+        <img class="FooterLogoDinoDev" src="img/DinoDevTransparente.png">
+        <p>&copy Copyright Dino Dev. - 2022</p>
+        <br>
+        <p>Alumno Alura: Luis Emilio Elias</p>
+        <br>
+        <p>emilioe@hotmail.com.ar</p>
+
+    </footer>
+    
+    <script src="encriptador.js"></script>
+
+</body>
+
+</html>
